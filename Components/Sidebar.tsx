@@ -1,9 +1,11 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { SiCodechef } from "react-icons/si";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
   const changeTheme = () => {
@@ -27,7 +29,7 @@ const Sidebar = () => {
         Web developer
       </p>
       <a
-        href="/assets/adityathakurResume.pdf"
+        href="/assets/Aditya_Resume.pdf"
         download="Aditya Thakur Resume.pdf"
         className="flex items-center justify-center px-2 py-2 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
       >
@@ -36,14 +38,23 @@ const Sidebar = () => {
       {/* social icons */}
 
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" aria-label="" />
+        <a href="https://www.codechef.com/users/aadi89880">
+          <SiCodechef
+            className="w-8 h-8 cursor-pointer"
+            aria-label="CodeChef"
+          />
         </a>
-        <a href="">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" aria-label="" />
+        <a href="https://github.com/aadi30thakur">
+          <AiFillGithub
+            className="w-8 h-8 cursor-pointer"
+            aria-label="Github"
+          />
         </a>
-        <a href="">
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" aria-label="" />
+        <a href="https://www.linkedin.com/in/aditya-thakur/">
+          <AiFillLinkedin
+            className="w-8 h-8 cursor-pointer"
+            aria-label="Linkedin"
+          />
         </a>
       </div>
       {/* address */}

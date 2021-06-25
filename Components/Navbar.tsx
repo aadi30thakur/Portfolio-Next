@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from "react";
-import { useState } from "react";
-import Link from "next/Link";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 const NavItem: FunctionComponent<{
