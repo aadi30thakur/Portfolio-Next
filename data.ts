@@ -99,6 +99,17 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id:1,
+    name: "Youtube clone",
+    description:
+      "Youtube clone with minimal or no ads",
+    image_path: "/images/yt-clone.png",
+    deployed_url: "https://u-tube.vercel.app/",
+    github_url: "https://github.com/aadi30thakur/yt-clone",
+    category: ["react","node","express","mongo"],
+    key_techs: ["NextJS", "Tailwind", "TypeScript"],
+  },
+  {
+    id:2,
     name: "Tee Store",
     description:
       "This app is a usual  e-commerce Store made with Complete Mern Stack",
@@ -109,7 +120,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Bootstrap", "Node","express","Rest Api"],
   },
   {
-    id:2,
+    id:3,
 
     name: "U-Shot ",
     image_path: "/images/ushot.jpg",
@@ -122,7 +133,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:3,
+    id:4,
 
     name: "WhatsApp Clone",
     image_path: "/images/whatsapp.png",
@@ -139,7 +150,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:4,
+    id:5,
 
     name: "Music Player",
     image_path: "/images/musicPlayer.png",
@@ -152,7 +163,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:5,
+    id:6,
 
     name: "Gif Generator",
     image_path: "/images/GifApp.png",
@@ -165,7 +176,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:6,
+    id:7,
 
     name: "Couture Point",
     image_path: "/images/CouturePoint.png",
@@ -177,7 +188,7 @@ export const projects: IProject[] = [
       key_techs: ["React", "Bootstrap", "Node","express","Rest Api"],
   },
   {
-    id:7,
+    id:8,
 
     name: "Weather Detector ",
     image_path: "/images/weatherApp.png",
@@ -192,7 +203,7 @@ export const projects: IProject[] = [
     ],
   },
   {
-    id:8,
+    id:9,
 
     name: "2048 game",
     image_path: "/images/2048.png",
@@ -204,7 +215,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
   {
-    id:9,
+    id:10,
 
     name: "Markdown Previewer",
     image_path: "/images/Markdown.png",
